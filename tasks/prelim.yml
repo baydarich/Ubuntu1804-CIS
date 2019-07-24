@@ -25,6 +25,9 @@
   changed_when: false
   check_mode: false
 
+- name: PRELIM | Disable unattended-upgrades to prevent failures with apt
+  shell: systemctl mask unattended-upgrades.service && systemctl stop unattended-upgrades.service
+
 - name: "PRELIM | Run apt cache update"
   apt:
     update_cache: true

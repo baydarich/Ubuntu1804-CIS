@@ -26,51 +26,52 @@ ubuntu1804cis_rule_1_1_1_3: true
 ubuntu1804cis_rule_1_1_1_4: true
 ubuntu1804cis_rule_1_1_1_5: true
 ubuntu1804cis_rule_1_1_1_6: true
-ubuntu1804cis_rule_1_1_2: true
+ubuntu1804cis_rule_1_1_2: false
 ubuntu1804cis_rule_1_1_3: true
 ubuntu1804cis_rule_1_1_4: true
-ubuntu1804cis_rule_1_1_5: true
-ubuntu1804cis_rule_1_1_6: true
+ubuntu1804cis_rule_1_1_5: false
+ubuntu1804cis_rule_1_1_6: false
 ubuntu1804cis_rule_1_1_7: true
 ubuntu1804cis_rule_1_1_8: true
 ubuntu1804cis_rule_1_1_9: true
-ubuntu1804cis_rule_1_1_10: true
-ubuntu1804cis_rule_1_1_11: true
-ubuntu1804cis_rule_1_1_12: true
+ubuntu1804cis_rule_1_1_10: false
+ubuntu1804cis_rule_1_1_11: false
+ubuntu1804cis_rule_1_1_12: false
 ubuntu1804cis_rule_1_1_13: true
 ubuntu1804cis_rule_1_1_14: true
 ubuntu1804cis_rule_1_1_15: true
 ubuntu1804cis_rule_1_1_16: true
-ubuntu1804cis_rule_1_1_17: true
-ubuntu1804cis_rule_1_1_18: true
-ubuntu1804cis_rule_1_1_19: true
+ubuntu1804cis_rule_1_1_17: false
+ubuntu1804cis_rule_1_1_18: false
+ubuntu1804cis_rule_1_1_19: false
 ubuntu1804cis_rule_1_1_20: true
+# set to false if usb automounting is needed
 ubuntu1804cis_rule_1_1_21: true
-ubuntu1804cis_rule_1_2_1: true
-ubuntu1804cis_rule_1_2_2: true
-ubuntu1804cis_rule_1_3_1: true
-ubuntu1804cis_rule_1_3_2: true
+ubuntu1804cis_rule_1_2_1: false
+ubuntu1804cis_rule_1_2_2: false
+ubuntu1804cis_rule_1_3_1: false
+ubuntu1804cis_rule_1_3_2: false
 ubuntu1804cis_rule_1_4_1: true
-ubuntu1804cis_rule_1_4_2: true
+ubuntu1804cis_rule_1_4_2: false
 ubuntu1804cis_rule_1_4_3: true
 ubuntu1804cis_rule_1_5_1: true
-ubuntu1804cis_rule_1_5_2: true
+ubuntu1804cis_rule_1_5_2: false
 ubuntu1804cis_rule_1_5_3: true
 ubuntu1804cis_rule_1_5_4: true
-ubuntu1804cis_rule_1_6_1_1: true
-ubuntu1804cis_rule_1_6_1_2: true
-ubuntu1804cis_rule_1_6_1_3: true
-ubuntu1804cis_rule_1_6_1_4: true
-ubuntu1804cis_rule_1_6_2_1: true
-ubuntu1804cis_rule_1_6_2_2: true
-ubuntu1804cis_rule_1_6_3: true
+ubuntu1804cis_rule_1_6_1_1: false
+ubuntu1804cis_rule_1_6_1_2: false
+ubuntu1804cis_rule_1_6_1_3: false
+ubuntu1804cis_rule_1_6_1_4: false
+ubuntu1804cis_rule_1_6_2_1: false
+ubuntu1804cis_rule_1_6_2_2: false
+ubuntu1804cis_rule_1_6_3: false
 ubuntu1804cis_rule_1_7_1_1: true
 ubuntu1804cis_rule_1_7_1_2: true
 ubuntu1804cis_rule_1_7_1_3: true
 ubuntu1804cis_rule_1_7_1_4: true
 ubuntu1804cis_rule_1_7_1_5: true
 ubuntu1804cis_rule_1_7_1_6: true
-ubuntu1804cis_rule_1_7_2: true
+ubuntu1804cis_rule_1_7_2: false
 
 # Section 2 rules
 ubuntu1804cis_rule_2_1_1: true
@@ -84,9 +85,9 @@ ubuntu1804cis_rule_2_1_8: true
 ubuntu1804cis_rule_2_1_9: true
 ubuntu1804cis_rule_2_1_10: true
 ubuntu1804cis_rule_2_1_11: true
-ubuntu1804cis_rule_2_2_1_1: true
-ubuntu1804cis_rule_2_2_1_2: true
-ubuntu1804cis_rule_2_2_1_3: true
+ubuntu1804cis_rule_2_2_1_1: false
+ubuntu1804cis_rule_2_2_1_2: false
+ubuntu1804cis_rule_2_2_1_3: false
 ubuntu1804cis_rule_2_2_2: true
 ubuntu1804cis_rule_2_2_3: true
 ubuntu1804cis_rule_2_2_4: true
@@ -110,7 +111,8 @@ ubuntu1804cis_rule_2_3_4: true
 ubuntu1804cis_rule_2_3_5: true
 
 # Section 3 rules
-ubuntu1804cis_rule_3_1_1: true
+# set to false to get rid of possible docker problems
+ubuntu1804cis_rule_3_1_1: false
 ubuntu1804cis_rule_3_1_2: true
 ubuntu1804cis_rule_3_2_1: true
 ubuntu1804cis_rule_3_2_2: true
@@ -124,8 +126,8 @@ ubuntu1804cis_rule_3_3_1: true
 ubuntu1804cis_rule_3_3_2: true
 ubuntu1804cis_rule_3_3_3: true
 ubuntu1804cis_rule_3_4_1: true
-ubuntu1804cis_rule_3_4_2: true
-ubuntu1804cis_rule_3_4_3: true
+ubuntu1804cis_rule_3_4_2: false
+ubuntu1804cis_rule_3_4_3: false
 ubuntu1804cis_rule_3_4_4: true
 ubuntu1804cis_rule_3_4_5: true
 ubuntu1804cis_rule_3_5_1: true
@@ -133,45 +135,45 @@ ubuntu1804cis_rule_3_5_2: true
 ubuntu1804cis_rule_3_5_3: true
 ubuntu1804cis_rule_3_5_4: true
 ubuntu1804cis_rule_3_6_1: true
-ubuntu1804cis_rule_3_6_2: true
+ubuntu1804cis_rule_3_6_2: false
 ubuntu1804cis_rule_3_6_3: true
-ubuntu1804cis_rule_3_6_4: true
-ubuntu1804cis_rule_3_6_5: true
+ubuntu1804cis_rule_3_6_4: false
+ubuntu1804cis_rule_3_6_5: false
 
 # Section 4 rules
-ubuntu1804cis_rule_4_1_1_1: true
-ubuntu1804cis_rule_4_1_1_2: true
-ubuntu1804cis_rule_4_1_1_3: true
-ubuntu1804cis_rule_4_1_2: true
-ubuntu1804cis_rule_4_1_3: true
-ubuntu1804cis_rule_4_1_4: true
-ubuntu1804cis_rule_4_1_5: true
-ubuntu1804cis_rule_4_1_6: true
-ubuntu1804cis_rule_4_1_7: true
-ubuntu1804cis_rule_4_1_8: true
-ubuntu1804cis_rule_4_1_9: true
-ubuntu1804cis_rule_4_1_10: true
-ubuntu1804cis_rule_4_1_11: true
-ubuntu1804cis_rule_4_1_12: true
-ubuntu1804cis_rule_4_1_13: true
-ubuntu1804cis_rule_4_1_14: true
-ubuntu1804cis_rule_4_1_15: true
-ubuntu1804cis_rule_4_1_16: true
-ubuntu1804cis_rule_4_1_17: true
-ubuntu1804cis_rule_4_1_18: true
-ubuntu1804cis_rule_4_2_3: true
-ubuntu1804cis_rule_4_2_1_1: true
-ubuntu1804cis_rule_4_2_1_2: true
-ubuntu1804cis_rule_4_2_1_3: true
-ubuntu1804cis_rule_4_2_1_4: true
-ubuntu1804cis_rule_4_2_1_5: true
-ubuntu1804cis_rule_4_2_2_1: true
-ubuntu1804cis_rule_4_2_2_2: true
-ubuntu1804cis_rule_4_2_2_3: true
-ubuntu1804cis_rule_4_2_2_4: true
-ubuntu1804cis_rule_4_2_2_5: true
-ubuntu1804cis_rule_4_2_4: true
-ubuntu1804cis_rule_4_3: true
+ubuntu1804cis_rule_4_1_1_1: false
+ubuntu1804cis_rule_4_1_1_2: false
+ubuntu1804cis_rule_4_1_1_3: false
+ubuntu1804cis_rule_4_1_2: false
+ubuntu1804cis_rule_4_1_3: false
+ubuntu1804cis_rule_4_1_4: false
+ubuntu1804cis_rule_4_1_5: false
+ubuntu1804cis_rule_4_1_6: false
+ubuntu1804cis_rule_4_1_7: false
+ubuntu1804cis_rule_4_1_8: false
+ubuntu1804cis_rule_4_1_9: false
+ubuntu1804cis_rule_4_1_10: false
+ubuntu1804cis_rule_4_1_11: false
+ubuntu1804cis_rule_4_1_12: false
+ubuntu1804cis_rule_4_1_13: false
+ubuntu1804cis_rule_4_1_14: false
+ubuntu1804cis_rule_4_1_15: false
+ubuntu1804cis_rule_4_1_16: false
+ubuntu1804cis_rule_4_1_17: false
+ubuntu1804cis_rule_4_1_18: false
+ubuntu1804cis_rule_4_2_3: false
+ubuntu1804cis_rule_4_2_1_1: false
+ubuntu1804cis_rule_4_2_1_2: false
+ubuntu1804cis_rule_4_2_1_3: false
+ubuntu1804cis_rule_4_2_1_4: false
+ubuntu1804cis_rule_4_2_1_5: false
+ubuntu1804cis_rule_4_2_2_1: false
+ubuntu1804cis_rule_4_2_2_2: false
+ubuntu1804cis_rule_4_2_2_3: false
+ubuntu1804cis_rule_4_2_2_4: false
+ubuntu1804cis_rule_4_2_2_5: false
+ubuntu1804cis_rule_4_2_4: false
+ubuntu1804cis_rule_4_3: false
 
 # Section 5 rules
 ubuntu1804cis_rule_5_1_1: true
@@ -189,13 +191,14 @@ ubuntu1804cis_rule_5_2_4: true
 ubuntu1804cis_rule_5_2_5: true
 ubuntu1804cis_rule_5_2_6: true
 ubuntu1804cis_rule_5_2_7: true
-ubuntu1804cis_rule_5_2_8: true
+# set to true after configuration
+ubuntu1804cis_rule_5_2_8: false
 ubuntu1804cis_rule_5_2_9: true
 ubuntu1804cis_rule_5_2_10: true
 ubuntu1804cis_rule_5_2_11: true
 ubuntu1804cis_rule_5_2_12: true
 ubuntu1804cis_rule_5_2_13: true
-ubuntu1804cis_rule_5_2_14: true
+ubuntu1804cis_rule_5_2_14: false
 ubuntu1804cis_rule_5_2_15: true
 ubuntu1804cis_rule_5_2_16: true
 ubuntu1804cis_rule_5_3_1: true
@@ -209,11 +212,11 @@ ubuntu1804cis_rule_5_4_1_4: true
 ubuntu1804cis_rule_5_4_2: true
 ubuntu1804cis_rule_5_4_3: true
 ubuntu1804cis_rule_5_4_4: true
-ubuntu1804cis_rule_5_5: true
+ubuntu1804cis_rule_5_5: false
 ubuntu1804cis_rule_5_6: false
 
 # Section 6 rules
-ubuntu1804cis_rule_6_1_1: true
+ubuntu1804cis_rule_6_1_1: false
 ubuntu1804cis_rule_6_1_2: true
 ubuntu1804cis_rule_6_1_3: true
 ubuntu1804cis_rule_6_1_4: true
@@ -225,8 +228,8 @@ ubuntu1804cis_rule_6_1_9: true
 ubuntu1804cis_rule_6_1_10: true
 ubuntu1804cis_rule_6_1_11: true
 ubuntu1804cis_rule_6_1_12: true
-ubuntu1804cis_rule_6_1_13: true
-ubuntu1804cis_rule_6_1_14: true
+ubuntu1804cis_rule_6_1_13: false
+ubuntu1804cis_rule_6_1_14: false
 ubuntu1804cis_rule_6_2_1: true
 ubuntu1804cis_rule_6_2_2: true
 ubuntu1804cis_rule_6_2_3: true
@@ -291,10 +294,10 @@ ubuntu1804cis_set_boot_pass: false
 ubuntu1804cis_is_router: false
 
 # IPv6 required
-ubuntu1804cis_ipv6_required: true
+ubuntu1804cis_ipv6_required: false
 
 # AIDE
-ubuntu1804cis_config_aide: true
+ubuntu1804cis_config_aide: false
 # AIDE cron settings
 ubuntu1804cis_aide_cron:
   cron_user: root
@@ -376,19 +379,19 @@ ubuntu1804cis_sshd:
 
 ubuntu1804cis_pwquality:
   - key: 'minlen'
-    value: '14'
+    value: '8'
   - key: 'dcredit'
     value: '-1'
   - key: 'ucredit'
     value: '-1'
   - key: 'ocredit'
-    value: '-1'
+    value: '-0'
   - key: 'lcredit'
     value: '-1'
 
 ubuntu1804cis_pass:
-  max_days: 365
-  min_days: 7
+  max_days: 1000
+  min_days: 3
   warn_age: 7
 
 # Syslog system
