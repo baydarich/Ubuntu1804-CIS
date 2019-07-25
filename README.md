@@ -1,33 +1,25 @@
 Ubuntu 18.04 CIS STIG
 ================
 
-[![Build Status](https://travis-ci.com/florianutz/Ubuntu1804-CIS.svg?branch=master)](https://travis-ci.com/florianutz/Ubuntu1804-CIS)
-[![Ansible Role](https://img.shields.io/badge/role-florianutz.Ubuntu1804--CIS-blue.svg)](https://galaxy.ansible.com/florianutz/Ubuntu1804-CIS/)
-
-Configure Ubuntu 18.04 machine to be CIS compliant. Level 1 and 2 findings will be corrected by default.
+Configure Ubuntu 18.04 machine to be CIS compliant. Only some of the Level 1 Scored findings are applied.
 
 This role **will make changes to the system** that could break things. This is not an auditing tool but rather a remediation tool to be used after an audit has been conducted.
 
-## IMPORTANT INSTALL STEP
-
-If you want to install this via the `ansible-galaxy` command you'll need to run it like this:
-
-`ansible-galaxy install -p roles -r requirements.yml`
-
-With this in the file requirements.yml:
-
-```
-- src: https://github.com/florianutz/Ubuntu1804-CIS.git
-```
-
-Based on [CIS Ubuntu Benchmark v1.0.0 - 08-13-2018 ](https://community.cisecurity.org/collab/public/index.php).
-
-This repo originated from work done by [MindPointGroup](https://github.com/MindPointGroup/RHEL7-CIS)
-
-Requirements
+Dependencies
 ------------
 
-You should carefully read through the tasks to make sure these changes will not break your systems before running this playbook.
+Ansible >= 2.4 and <= 2.7 (2.8 is not yet supported)
+
+
+Usage
+------
+
+Change `servers` file and add servers that need to be configured. 
+
+To run the scripts:
+```bash
+ansible-playbook playbook.yml -i servers --user root
+```
 
 Role Variables
 --------------
@@ -169,33 +161,6 @@ ubuntu1804cis_pwquality:
     value: '-1'
   - key: 'lcredit'
     value: '-1'
-```
-
-
-Dependencies
-------------
-
-Ansible >= 2.4 and <= 2.7 (2.8 is not yet supported)
-
-Example Playbook
--------------------------
-
-```
-- name: Harden Server
-  hosts: servers
-  become: yes
-
-  roles:
-    - Ubuntu1804-CIS
-```
-
-To run the tasks in this repository, first create this file one level above the repository
-(i.e. the playbook .yml and the directory `Ubuntu1804-CIS` should be next to each other),
-then review the file `defaults/main.yml` and disable any rule/section you do not wish to execute.
-
-Assuming you named the file `site.yml`, run it with:
-```bash
-ansible-playbook site.yml
 ```
 
 Tags
